@@ -45,13 +45,43 @@ margin: 0 auto;
 h2 {
     margin: 0 auto;
     color: #ffffff;
+}
+
+
+h2, ul a , .yllo-cta ,.event h3 , .explore-hdr_content h1 ,.form-div, .form-div h3
+{
     font-size: 25px;
-    font-weight: 500;
 }
 
 
 
-h4 , h2 , h5  {
+
+.prpl-cta , .contact-visit , .footer-container p ,.openet-page , .home , .breadcrmb,.researchers-p , .explr-kid-content ,.for-teachers-p , .explr-kid-content , .share-this-page h3 , #message , .email-tel , input , .csmlgy-h1 
+{
+    font-size: 20px;
+}
+
+
+.event p ,.fun-emoji-sec p ,  .explore-hdr_content p, .for-teachers-p , .researchers-p , .csmlgy-contant 
+{
+    font-size: 18px;
+
+}
+
+
+.big-rd-content , .child-p , .location-p , .admission-p , .hour-p 
+{
+    font-size: 22px;
+
+}
+
+.search-text , .event h4 {
+    font-size: 16px;
+    
+}
+
+
+h4 , h2 , h5 , .share-this-page h3 {
     font-weight: 500;
 }
 
@@ -172,7 +202,6 @@ li .search-img {
     float: left;
     padding: 0;
     color: #ffffff; 
-    font-size: 16px;
     transition: 0.4s;
     line-height: 25px;
     width: 0px; 
@@ -197,7 +226,6 @@ ul a {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 25px;
     padding-bottom: 10px;
    
 }
@@ -273,7 +301,6 @@ nav li {
 .big-rd-content {
 
     margin-top: 8px;
-    font-size: 22px;
     margin-bottom: -4px;
 
 }
@@ -323,7 +350,6 @@ nav li {
     color: aliceblue;
     text-decoration: none;
     background-color: #492C84;
-    font-size: 20px;
     padding: 10px 60px;
     border-radius: 40px;
 
@@ -346,7 +372,6 @@ position: absolute;
     text-decoration: none;
     padding: 15px 80px ;
     border-radius: 40px;
-    font-size: 25px;
     color: #19004f;
 }
 
@@ -489,12 +514,10 @@ button {
 }
 
 .event h3 {
-    font-size: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 .event h4 {
-    font-size: 16px;
     margin: 0px;
     color: #000;
     font-weight: 600;
@@ -502,7 +525,6 @@ button {
 }
 
 .event p {
-    font-size: 18px;
     margin: 0;
     padding: 5px;
     color: #19004f;
@@ -556,7 +578,7 @@ button {
 }
 
 .fun-emoji-sec p {
-    font-size: 18px;
+   
     color: #19004f;
 }
 
@@ -588,13 +610,10 @@ footer  {
 }
 
 
-.footer-container p {
-    font-size: 17px;
-}
+
 
 
 h5 , .contact-visit  {
-    font-size: 20px;
     text-transform: initial;
 }
 
@@ -661,7 +680,6 @@ h5 , .contact-visit  {
 
 .openet-page , .home , .breadcrmb{
     text-decoration: none;
-    font-size: 20px;
 }
 
 .openet-page , .home {
@@ -708,7 +726,6 @@ h5 , .contact-visit  {
 
 
 .explore-hdr_content h1 {
-    font-size: 25px;
     font-weight: 600;
     border-bottom: 3px solid #19004f;
 }
@@ -716,7 +733,6 @@ h5 , .contact-visit  {
 
 .explore-hdr_content p {
     color: #19004f;
-    font-size: 18px;
     margin: 7px 0px;
     
 
@@ -727,12 +743,8 @@ h5 , .contact-visit  {
    
 }
 
-.researchers-p , .explr-kid-content ,.for-teachers-p {
-   font-size: 20px;
-}
 
 .for-teachers-p , .researchers-p , .csmlgy-contant  {
-    font-size: 18px;
     padding: 10px 40px;
     margin-top: -5px;
  
@@ -761,7 +773,6 @@ h5 , .contact-visit  {
 .explr-kid-content {
     background-color: #a9d193;
 	border-radius: 50%;
-	font-size: 20px;
 	text-align: center;
 	width: 224px;
     height: 224px;
@@ -779,7 +790,6 @@ h5 , .contact-visit  {
 }
 
 .for-teachers-p {
-   font-size: 18px;
    padding: 20px 40px;
    margin-top: -5px;
    color: #580000;
@@ -816,15 +826,14 @@ h5 , .contact-visit  {
 }
 
 
- .share-this-page h4 {
-
+ .share-this-page h3 {
+    color: #19004f;
     margin-top: 0px;
 
  }
 
-.form-div, .form-div h3 ,  .share-this-page h4 {
+.form-div, .form-div h3 {
     color: #19004f;
-    font-size: 25px;
     text-shadow: none;
 }
 
@@ -837,7 +846,7 @@ h5 , .contact-visit  {
 }
 
 .share-page_img {
-    gap: 10px;
+    gap: 26px;
     justify-content: center;
 }
 
@@ -850,6 +859,7 @@ h5 , .contact-visit  {
 
 form {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     gap: 40px;
@@ -872,9 +882,7 @@ input {
     height: 35px;
     border-radius: 15px;
     padding: 10px 20px;
-    font-size: 20px;
-
-    
+   
 }
 
 
@@ -884,9 +892,18 @@ input {
     height: 260px;
     border: none;
     border-radius: 20px;
-    font-size: 20px;
     padding: 20px;
+    font-family: "Montserrat";
 
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
 }
 
 
@@ -900,7 +917,6 @@ input {
 }
 
 .email-tel{
-    font-size: 20px;
    margin-top: 10px;
     color: #19004f;
 
@@ -940,7 +956,6 @@ height: 100%;
     border-radius: 10px;
     z-index: 10;
     font-weight: 600;
-    font-size: 20px;
 
 }
 
@@ -988,7 +1003,6 @@ height: 100%;
 .child-p {
     padding: 20px;
     margin: 0px;
-    font-size: 22px;
 
 }
 
@@ -1042,7 +1056,6 @@ flex-direction: column;
     margin-top: 0px;
     margin-bottom: 10px;
     padding: 30px;
-    font-size: 22px;
     color: #19004f;
     box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
 }
@@ -1051,7 +1064,6 @@ flex-direction: column;
 
 .admission-p , .hour-p{
     color: #19004f;
-    font-size: 22px;
     margin-bottom: 10px;
     padding: 40px;
     box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
@@ -1068,15 +1080,25 @@ flex-direction: column;
 /*CONTANT*/
 
 
+.home-h1 ,.explore-prpl-cta , .explore-hdr_content p , .for-teachers-p , .researchers-p , .csmlgy-contant
+{
+    font-size: 20px;
+}
+
+.big-rd-content , .explore-hdr_content h1 ,  .share-this-page h3 , .openet-page , .home , .breadcrmb {
+
+    font-size: 25px;
+
+}
+
 
 .home-h1 {
-    font-size: 20px;
+    
     margin: 0;
 }
 
 .big-rd-content {
 
-    font-size: 25px;
     margin-bottom: 10px;
 
 }
@@ -1111,7 +1133,6 @@ flex-direction: column;
 
 .explore-prpl-cta {
     
-    font-size: 20px;
     padding: 10px 70px;
     position: absolute;
     bottom: 8%;
@@ -1144,28 +1165,14 @@ flex-direction: column;
     padding: 10px 40px ;
 }
 
-.explore-hdr_content h1 {
-    font-size: 25px;
 
-}
-
-
-.explore-hdr_content p {
-    font-size: 20px;
-
-}
 
 .for-teachers-p , .researchers-p , .csmlgy-contant {
-    font-size: 20px;
+
     padding: 20px 70px;
  
  
  }
- .openet-page , .home , .breadcrmb{
-
-    font-size: 25px;
-}
-
 
 
 }
@@ -1238,6 +1245,34 @@ flex-direction: column;
 
 @media (min-width: 650px) {
  
+
+ul a , h2 , .event h3
+{
+    font-size: 28px;
+}
+
+
+
+.home-h1 , .prpl-cta ,  .footer-container p 
+
+{
+    font-size: 25px;
+}
+
+
+.explore-hdr_content p , .researchers-p , .explr-kid-content ,.for-teachers-p 
+{
+    font-size: 22px;
+}
+
+
+.explore-hdr_content h1 , .csmlgy-h1
+{
+    font-size: 30px;
+}
+
+
+
 /*haeder*/
 
 .search-menu {
@@ -1311,15 +1346,11 @@ flex-direction: column;
    
 }
 
-ul a {
-
-    font-size: 28px;
-}
 
   /*CONTANT*/
 
   .home-h1 {
-    font-size: 25px;
+
     margin: 0;
 }
 
@@ -1370,23 +1401,11 @@ ul a {
 }
 
 .prpl-cta {
-    font-size: 25px;
     padding: 18px 100px;
     border-radius: 40px;
 }
 
 
-
-
-
-
-
-
-/*Exhibition spaces*/ 
-
-h2 {
-    font-size: 28px;
-}
 
 
 
@@ -1403,10 +1422,6 @@ h2 {
 
 
 /*event*/ 
-
-.event h3 {
-    font-size: 28px;
-}
 
 
 .event p {
@@ -1436,11 +1451,6 @@ h2 {
     
  }
 
-
- .footer-container p {
-     font-size: 20px;
- }
- 
 
  
  .follow-us_img {
@@ -1482,14 +1492,8 @@ h5 , .contact-visit {
     padding: 20px 100px ;
 }
 
-.explore-hdr_content h1 {
-    font-size: 30px;
-
-}
-
 
 .explore-hdr_content p {
-    font-size: 22px;
     margin: 10px 0px;
 
 }
@@ -1505,9 +1509,6 @@ h5 , .contact-visit {
 
 }
 
-.researchers-p , .explr-kid-content ,.for-teachers-p {
-    font-size: 22px;
- }
  
 
 
@@ -1525,14 +1526,10 @@ h5 , .contact-visit {
     border-radius: 10px;
     z-index: 10;
     font-weight: 600;
-    font-size: 30px;
 
 }
 
 }
-
-
-
 
 
 
@@ -1543,10 +1540,30 @@ h5 , .contact-visit {
 
 @media (min-width: 800px) {
 
-    /*CONTANT*/
+
+
+  .home-h1 , .explore-hdr_content p 
+  {
+      font-size: 25px;  
+
+    }
+      
+    h2 , .explore-hdr_content h1 
+    {
+        font-size: 40px;
+
+    }
+      
+
+
+.explore-prpl-cta , .prpl-cta {
+    font-size: 29px;
+ }
+
+
+ /*CONTANT*/
 
 .home-h1 {
-    font-size: 25px;
     margin: 0;
 }
 
@@ -1588,7 +1605,6 @@ h5 , .contact-visit {
 
 
 .explore-prpl-cta{
-    font-size: 29px;
     padding: 18px 120px;
     position: absolute;
     bottom: 10%;
@@ -1598,7 +1614,6 @@ h5 , .contact-visit {
 
 
 .prpl-cta {
-font-size: 29px;
 padding: 18px 120px;
 }
 
@@ -1610,9 +1625,6 @@ padding: 18px 120px;
 
 /*Exhibition spaces*/ 
 
-   h2 {
-    font-size: 40px;
-}
 
 .r-bar , .g-bar {
     
@@ -1651,13 +1663,7 @@ padding: 18px 120px;
 
 
 
-.explore-hdr_content h1 {
-    font-size: 40px;
-}
-
-
 .explore-hdr_content p {
-    font-size: 25px;
     margin: 10px 0px;
 
 }
@@ -1672,10 +1678,22 @@ padding: 18px 120px;
 
 
 
-
-
-
 @media (min-width: 1000px) {
+
+
+
+    .prpl-cta ,  .home-h1
+ {
+     font-size: 35px;
+ }   
+
+ .big-rd-content , .explore-hdr_content h1
+ {
+    font-size: 50px;
+    
+}   
+
+
 
     /*Home page sections*/ 
 
@@ -1698,7 +1716,6 @@ padding: 18px 120px;
 
 }
 .prpl-cta {
-    font-size: 35px;
     padding: 18px 150px;
     }
     
@@ -1708,14 +1725,12 @@ padding: 18px 120px;
  /*CONTANT*/
 
  .home-h1 {
-    font-size: 35px;
     margin: 0;
 }
 
 
 .big-rd-content {
 
-    font-size: 50px;
     margin-bottom: 10px;
 
 }
@@ -1766,13 +1781,11 @@ padding: 18px 120px;
 /**** Explore page ****/ 
 
 .explore-hdr_content h1 {
-    font-size: 50px;
     margin-top: 0px;
 }
 
 
 .explore-hdr_content p {
-    font-size: 30px;
     margin: 15px 0px;
     
 
