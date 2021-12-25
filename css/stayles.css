@@ -447,7 +447,6 @@ button {
 .evlton-img {
   width: 280px;
   height: 280px;
-  box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
   border-radius: 50%;
 }
 
@@ -501,7 +500,6 @@ button {
 .event {
   padding: 15px 20px;
   margin-bottom: 10px;
-  box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
   max-width: 600px;
 }
 
@@ -918,14 +916,24 @@ input {
   margin-top: 0px;
   margin-bottom: 10px;
   padding: 15px;
+}
+
+.location-p,
+.admission-p,
+.hour-p,
+.event,
+.eclgy-img,
+.mdsn-img,
+.spaces-img,
+.evlton-img,
+.vst-icons,
+.vst-prpl-cta {
   box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
 }
 
 .admission-p,
 .hour-p {
   margin-bottom: 10px;
-
-  box-shadow: 0px 6px 6px 0px rgb(186, 179, 179);
 }
 
 .hour-p {
