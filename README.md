@@ -1,4 +1,4 @@
-# Your project title
+# COMMUNITY SCIENCE MUSEUM
 
 ![image](https://raw.githubusercontent.com/bushrakalaji/Symester-project-1/main/images/portfolio.jpg?token=GHSAT0AAAAAABUKFQTTTJMBUKXAOFJBBMTSYU3NWDA)
 
