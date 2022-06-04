@@ -30,8 +30,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
-
+[My instagram page](https://www.instagram.com/bushra_00/)
 [My LinkedIn page](https://www.linkedin.com/in/bushra-kalaji-6775a921a/)
 
 
