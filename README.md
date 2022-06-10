@@ -11,7 +11,7 @@ Its core target audience is primary and middle school children (7-15) and famili
 The website is informative and appealing, designed to attract middle school pupils and their parents. 
 The website is responsive and easy to use on a variety of devices.
 
-Site architecture :
+## Site architecture :
 
 - Home 
 - Explore
