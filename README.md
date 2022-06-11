@@ -6,10 +6,7 @@ Page overview on different devices.
 
 ## Description
 
-An interactive science museum called the Community Science Museum.
-Its core target audience is primary and middle school children (7-15) and families with young children.
-The website is informative and appealing, designed to attract middle school pupils and their parents. 
-The website is responsive and easy to use on a variety of devices.
+An interactive science museum is called  Community Science Museum. Its core target audience is primary and middle school children (7-15) and families with young children. The website is informative and appealing, designed to attract middle school pupils and their parents. The website is responsive and easy to use on a variety of devices.
 
 ### Site architecture :
 
